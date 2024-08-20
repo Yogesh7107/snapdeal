@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.leftPanel {
+  background-color: #f8f9fa;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightPanel {
+  padding: 30px;
+  text-align: center;
+}
+
+.leftPanel div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.leftPanel img {
+  margin-bottom: 10px;
+}
+
+.btnGoogle {
+  background-color: white;
+  border: 1px solid #ddd;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnGoogle img {
+  width: 20px;
+  margin-right: 10px;
+}
